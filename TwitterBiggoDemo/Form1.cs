@@ -15,6 +15,7 @@ namespace TwitterBiggoDemo
     {
         private SingleUserAuthorizer authorizer = new SingleUserAuthorizer
         {
+            //this 4 attributes value will come from user's twitter application. 
             CredentialStore = new SingleUserInMemoryCredentialStore
             {
                 ConsumerKey = "ConsumerKey",
